@@ -7,7 +7,7 @@
 
 ## Theme selection
 
-The theme is integrated into the mod, and can be simply selected from the mod's
+The theme is **not** integrated into the mod, and can be simply selected from the mod's
 settings:
 
 * Open the Windows 11 Taskbar Styler mod in Windhawk.
@@ -27,7 +27,7 @@ The theme styles can also be imported manually. To do that, follow these steps:
 
 ```json
 {
-  "controlStyles[0].target": "Windows.UI.Xaml.Shapes.Rectangle",
+  "controlStyles[0].target": "Windows.UI.Xaml.Shapes.Rectangle#BackgroundFill",
   "controlStyles[0].styles[0]": "Fill=#CC000000",
   "controlStyles[1].target": "Taskbar.SearchBoxButton > Taskbar.TaskListButtonPanel > Windows.UI.Xaml.Controls.Border",
   "controlStyles[1].styles[0]": "Background=#0078D7",
